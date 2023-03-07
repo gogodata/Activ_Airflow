@@ -28,7 +28,7 @@ Dans notre dossier, on aura ceci :
 On démarre les composants Airflow avec la commande docker compose up
 
 
-On vérifie les containers airflow créés avec la commande docker container ls
+On vérifie nos containers airflow avec la commande docker container ls
 
 Tous les containers doivent être démarrés et en "Healthy"
 
