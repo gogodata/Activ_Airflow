@@ -28,7 +28,7 @@ Tous les containers doivent être démarrés et en "Healthy".
 
 <img width="1649" alt="image" src="https://user-images.githubusercontent.com/45535819/223462244-38fb2062-d31a-48b4-a271-b3f1cb78fa36.png">. 
 
-Donc ici on a une version segmentée des compsants Airflow, et pas une version all-in-one standalone. Ce qui est mieux quand on veut rentrer plus en détails dans nos composants.
+Donc ici on a une version segmentée des composants Airflow, et pas une version all-in-one standalone. Ce qui est mieux quand on veut rentrer plus en détails dans nos composants.
 
 On vérifie notre console Web airflow sur notre navigateur en appelant  http://localhost:8080/home.  
 
