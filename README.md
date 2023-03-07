@@ -12,6 +12,8 @@ Homebrew (packages manager)
 
 Colima (runtimes docker)
 
+IDE (VS Code pour moi)
+
 # Démarrrage
 
 Pour démarrer Airflow via colima, il faut lui donner assez de ressources donc on lance la commande de démarrage de colima avec des paramètres cpu et ram :
