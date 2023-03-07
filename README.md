@@ -6,8 +6,11 @@ MacOS : Ventura 13.2
 
 Prérequis : 
 Version MacOS à jour
+
 Homebrew (packages manager)
+
 Colima (runtimes docker)
+
 
 Pour démarrer Airflow via colima, il faut lui donner assez de ressources.
 Pour cela, on lance la commande de démarrage de colima avec des paramètres cpu et ram :
