@@ -31,3 +31,5 @@ Tous les containers doivent être démarrés et en "Healthy".
 Donc ici on a une version segmentée des compsants Airflow, et pas une version all-in-one standalone. Ce qui est mieux quand on veut rentrer plus en détails dans nos composants.
 
 On vérifie notre console Web airflow sur notre navigateur en appelant  http://localhost:8080/home.  
+
+Une fois cette étape réalisée, on passe sur la création de notre container applicatif. Celui sur lequel on va charger notre fichier CSV dans une table Postgresql.  
