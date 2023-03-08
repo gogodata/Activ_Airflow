@@ -32,4 +32,4 @@ On a donc la liste des composants Airflow, et pas une version all-in-one standal
 
 On vérifie notre console Web airflow sur notre navigateur en appelant  http://localhost:8080/home.  
 
-Une fois cette étape validée, on passe sur la création de notre container python sur lequel on va charger notre fichier CSV dans une table Postgresql.  
+Une fois cette étape validée, on passe sur la création de notre container python sur lequel on va charger notre fichier CSV dans une table (Postgresql).  
