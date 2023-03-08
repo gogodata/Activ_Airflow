@@ -28,8 +28,8 @@ Tous les containers doivent être démarrés et en "Healthy".
 
 <img width="1649" alt="image" src="https://user-images.githubusercontent.com/45535819/223462244-38fb2062-d31a-48b4-a271-b3f1cb78fa36.png">. 
 
-Donc ici on a une version segmentée des composants Airflow, et pas une version all-in-one standalone. Ce qui est mieux quand on veut rentrer plus en détails dans nos composants.
+On a donc la liste des composants Airflow, et pas une version all-in-one standalone, ce qui est mieux quand on veut rentrer plus en détails dans nos composants.  
 
 On vérifie notre console Web airflow sur notre navigateur en appelant  http://localhost:8080/home.  
 
-Une fois cette étape validée, on passe sur la création de notre container applicatif. Celui sur lequel on va charger notre fichier CSV dans une table Postgresql.  
+Une fois cette étape validée, on passe sur la création de notre container python sur lequel on va charger notre fichier CSV dans une table Postgresql.  
