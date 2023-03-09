@@ -10,6 +10,7 @@ MacOS (à date) : Ventura 13.2
 - Homebrew (packages manager)
 - Colima (runtimes docker)
 - IDE (VS Code pour moi) + Git + XCode
+- Nouveau BuildKit Docker : https://docs.docker.com/build/install-buildx/
 
 # Démarrage de Colima
 
