@@ -38,6 +38,9 @@ Une fois cette étape validée, on passe sur la création de notre container pyt
 
 Pour configurer une connexion à notre base de données PostgreSQL dans Airflow, on se rend dans l'interface web Airflow, cliquer sur l'onglet "Admin" et sélectionner "Connections" puis cliquer sur "Create" pour créer une nouvelle connexion PostgreSQL en spécifiant les informations de connexion requises, telles que l'hôte, le port, le nom de la base de données, le nom d'utilisateur et le mot de passe.
 
+docker run --name mon-postgres --network mon-reseau -e POSTGRES_PASSWORD=mon-mot-de-passe -d postgres
+
+
 # Création de la tâche Airflow
 
 Ensuite, on va créer une tâche Airflow pour charger le fichier CSV dans la base de données PostgreSQL. On va utiliser le composant "PostgreSQLOperator" fourni par Airflow pour exécuter des requêtes SQL sur la base de données PostgreSQL. On peut utiliser la commande "COPY" pour charger le fichier CSV dans une table PostgreSQL. Le code Python pour créer une tâche de chargement de fichier CSV dans une table PostgreSQL est dans le fichier loading_task.py.  
