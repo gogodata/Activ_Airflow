@@ -2,7 +2,7 @@
 
 Matériel utilisé : MAC M1 Pro 16g
 
-MacOS : Ventura 13.2
+MacOS (à date) : Ventura 13.2
 
 # Prérequis
 
